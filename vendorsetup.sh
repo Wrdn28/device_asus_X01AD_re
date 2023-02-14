@@ -14,5 +14,5 @@
 # limitations under the License.
 #
 
-add_lunch_combo omni_X01AD-userdebug
-add_lunch_combo omni_X01AD-eng
+add_lunch_combo twrp_X01AD-userdebug
+add_lunch_combo twrp_X01AD-eng

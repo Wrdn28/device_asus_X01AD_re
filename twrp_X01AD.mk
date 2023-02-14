@@ -15,9 +15,9 @@
 #
 
 # Inherit Target Product stuff
-$(call inherit-product, build/target/product/embedded.mk)
+# $(call inherit-product, build/target/product/embedded.mk)
 
-# Inherit some common Omni stuff.
+# Inherit some common twrp stuff.
 $(call inherit-product, vendor/twrp/config/common.mk)
 
 # Charger
