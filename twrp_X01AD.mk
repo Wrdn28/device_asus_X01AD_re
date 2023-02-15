@@ -17,6 +17,8 @@
 # Inherit Target Product stuff
 # $(call inherit-product, build/target/product/embedded.mk)
 
+$(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
+
 # Inherit some common twrp stuff.
 $(call inherit-product, vendor/twrp/config/common.mk)
 
